@@ -130,10 +130,27 @@
     }
 }
 
+body {
+    box-sizing: border-box;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    font-size: 1.75em;
+    text-align: center;
+}
+
 .row {
     margin: 10px;
 }
 
 .content {
     font-size: 12px;
+}
+
+.label {
+    float: right;
+    background: red;
+    font-size: 1.25em;
 }
